@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%=title%></title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+
+<body class="sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<div class="wrapper">
+    <%- include('nav') %>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Main content -->
+        <section class="content pt-4">
+            <div class="container-fluid">
+
+                <div class="row info-box">
+                    <form id="upload-form" class="form-group" style="width: 100%;" enctype="multipart/form-data">
+                            <div class="d-flex">
+                                <a href="/admin/manager/beauty"><i class="fas fa-arrow-left"></i>Danh sách beauty</a>
+                                <label class="ml-auto"><%=title%></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Tiêu đề <span class="text-danger">*</span></label>
+                                <input type="text" value="<%= typeof girl !== 'undefined' ? girl.name : '' %>"
+                                       class="form-control" name="name" id="name" placeholder="Nhập tiêu đề">
+                            </div>
+                        <div class="form-group">
+                            <label for="provinces_code">Tỉnh thành <span class="text-danger">*</span></label>
+                            <select id="provinces_code" name="provinces_code" class="form-control">
+                                <option disabled selected>Chọn danh mục</option>
+                                <% if (provinces && provinces.length) { %>
+                                    <% provinces.forEach(function(province) { %>
+                                    <option value="<%= province.code %>" <% if (typeof girl !== 'undefined' && province.code === girl.provinces_id) { %>selected<% } %>><%= province.name %></option>
+                                    <% }); %>
+                                <% } else { %>
+                                <p>Không có tỉnh thành</p>
+                                <% } %>
+                            </select>
+                        </div>
+                        <img id="img-preview" src="<%= girl && girl.image ? girl.image : '' %>" style="width: 80px;display: <%=typeof girl !== 'undefined' ? 'block' : 'none' %>" />
+                    
+                        <div class="form-group">
+                            <label for="image">Ảnh đại diện <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input onchange="loadFile(event)" type="file" name="image"
+                                           accept="image/png, image/gif, image/jpeg" class="custom-file-input"
+                                           id="image">
+                                    <label class="custom-file-label" for="image">Chọn ảnh</label>
+                                </div>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">Ảnh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit-form" style="width: 100%;">Xác
+                            nhận
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+        <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </div>
+</div>
+<script src="/plugins/jquery/jquery.min.js"></script>
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/dist/js/adminlte.min.js"></script>
+<script src="/js/admin/admin.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script>
+  const loadFile = function (event) {
+    const output = document.getElementById('img-preview');
+    output.src = URL.createObjectURL(event.target.files[0]);
+    output.onload = function () {
+      URL.revokeObjectURL(output.src) // free memory
+    }
+    $('#img-preview').show();
+  };
+
+  $('#submit-form').click(function (e) {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append('name', $('#name').val()?.trim());
+    formData.append('provinces_id', $('#provinces_code').val()?.trim());
+    formData.append('image', $('#image')[0]?.files[0]);
+
+    $.ajax({
+      type: "POST",
+      url: "<%=url%>",
+      data: formData,
+      contentType: false,
+      processData: false,
+      success: function (response) {
+        if (response.status == true) {
+          Swal.fire({
+            icon: 'success',
+            title: `${response.message}`,
+          })
+        } else {
+          Swal.fire({
+            icon: 'error',
+            title: `${response.message}`,
+          })
+        }
+      }
+    });
+  });
+</script>
+</body>
+
+</html>

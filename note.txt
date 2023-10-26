@@ -1,0 +1,145 @@
+Read the two reading texts and the writing topic.Write an essay of at least 450
+words in response to the question using evidence from the two texts.You are
+required to use techniques of paraphrasing,summarizing,and applying Harvard
+citation standards (in the text and the reference list).
+Some people believe that aI can enhance human creativity by providing new ideas
+and expanding artistic horizons.They argue that AI-generated suggestions can
+inspire novel and diverse creations.Others,however,contend that AI-generated art
+lacks the emotional depth and originality of human-made works.
+Discuss both views and give your opinion?
+Reading Text 01
+Using Artificial Intelligent for enhancing human creativity
+Mayssa A.A.Elfar and Mina E.T.Dawood,2023
+Artificial Intelligence(AI)refers to the development of computer systems capable of performing
+tasks that usually require human intelligence.The techniques used in AI include machine
+learning,deep learning,natural language processing,speech recognition,and computer vision
+(Hong and Curran,2019).These technologies are becoming increasingly sophisticated and are
+showing great promise for use in a variety of fields,including Art and Design.AI can recreate
+existing artwork or produce completely new compositions from scratch,and it can also be used
+to generate abstract images that are the result of random algorithms instead of humans'artistic
+vision (Mikalonyte and Kneer,2021).
+Several studies in recent years have attempted to evaluate the potential of AI applications in art
+and design.The results of the research show that computers can be trained to create realistic-
+looking paintings using simple shapes like circles and triangles.They can also create unique
+works of art by combining different elements such as paint strokes and textures (Bur et al.,
+2019).In the future,artificial intelligence could be used to help artists and designers to improve
+their creations by providing them with feedback on their work-in-progress.Research into the use
+of AI in art is still in its early stages,so it is too early to say what the long-term impact of these
+technologies will be on the creative arts.However,it is becoming increasingly common to see
+images and videos created by computer algorithms that are mistaken for works created by human
+artists.As this technology becomes more sophisticated and more powerful,it seems likely that it
+will become widely used in the creative arts in the future(Bello et al.,2015).
+The many applications of artificial intelligence in the art and design world include the automated
+creation of 3D objects (Nada and Dawood,2022),automatic image editing,modeling of bone
+structure and the use of machine learning to automatically detect design mistakes.All of these
+are examples of the increasing use of AI to improve the quality and efficiency of the work that is
+done in this field.The use of AI to create creative images and innovative designs is becoming
+increasingly common these days as computer algorithms are used to assist artists with the design
+process.As depicted in Fig.1 below
+Artificial intelligence (Al)applications have the potential to transform many aspects of art
+creation and art appreciation.For example,AI can be used to automatically generate new works
+of art or to create digital artworks that can be manipulated using computer-generated graphics
+software (Chen and Chen,2020).Similarly,AI can also be used to automatically analyze a work
+of art and identify various features such as color,texture,and composition.This can help reveal
+new insights into the work of famous artists and help art historians develop new theories about
+the evolution of artistic styles and techniques.It can also be used to help identify previously
+unknown artwork that may exist in private or private collections around the world.In general,
+many of the most exciting innovations in art and art history are likely to come from the use of Al
+and other emerging technologies (Lim,2020).As artists and historians embrace these new
+technologies,we may begin to see new and exciting ways in which these technologies can be
+used to explore creativity and innovation in the history of art.However,it is difficult to predict
+exactly how this new technology will be used by artists in the future.It is also important to
+remember that while the widespread adoption of this technology may have significant impacts on
+the future of art,we may also discover unintended effects as well (Agrawal et al.,2018).
+The first program in artificial intelligence that could learn from experience was called ELIZA
+and it was written in 1966 by Joseph Weizenbaum at MIT's Artificial Intelligence Laboratory.
+ELIZA was one of the first interactive computer programs able to speak like a human being.The
+program was able to mimic human behavior by reading a set of questions and responding to
+them.Another pioneer in the field of AI is Tim Berners-Lee who invented the World Wide Web
+in 1989 and is considered to be the father of the Internet.He has been awarded many honorary
+degrees for his work.It is believed by many scientists that the creation of the Web had a major
+impact on the development of AI because it opened a new avenue of knowledge acquisition for
+the field.In 1997 Dr.Gary Marcus at NYU developed another program called SHRDLU which
+was able to respond to questions on its own and learn new words from experience.We will have
+a profound effect on the future of humanity(Flasinski,2016).
+With machine learning algorithms can be used to automatically generate new compositions from
+existing images by selecting certain parts of the image and incorporating them into a new image.
+Artists can also use these programs to help them analyze their work and improve it based on the
+resulting data.There are many different scenarios for using AI in art or design.It can be used to
+automatically create images that are like the images that the artist is trying to create but with
+different elements added to give them more character.It can also be used to create new images
+based on the artist's instructions but with different objects that the designer has in mind.
+Reading Text 02
+Arguments for the Rise of Artificial Intelligence Art:Does AI Art Have
+Creativity,Motivation,Self-awareness and Emotion?
+Bai Liu,2023
+At present,the most questionable aspect of AI art-making is that of self-awareness and emotion:
+Can AI be self-aware?Can AI have a soul?Can AI have emotions?Can AI feel pleasure or pain?
+Can AI have empathy or jealousy?Does AI need to have 'life experience'to create art?Can AI
+have empathy or jealousy,and does AI need 'life experience'to create art?These questions are
+still highly controversial.If AI had self-awareness and emotions,what would be the impact on
+humans?Will they turn the world upside down?
+In order to address these controversial issues,the focus should first be on clarifying whether AI
+has the potential to be self-aware and emotional.As already mentioned,'dataism'believes that
+research on 'affective computing'is the key to advancing the humanization of AI.Of course,
+some also argue that machines do not need 'consciousness'at all.The title of Marvin Minsky's
+book The Emotion Machine:Commonsense Thinking,Artificial Intelligence,and the Future of
+the Human Mind is a clear indication of this primary intention.In fact,in his book Society of
+Mind (1985),Marvin Minsky suggested that "the question is not whether an intelligent machine
+can have emotions,but whether an emotionless machine can be intelligent".This has given many
+people an alternative perspective on the issue and suggests a relationship between emotion and
+intelligence
+In The Emotion Machine:Commonsense Thinking,Artificial Intelligence,and the Future of the
+Human Mind,Marvin Minsky states the goal of the book:to explain how the human brain works,
+to design machines that can understand and think,then to try to apply this thinking to
+understanding ourselves and to developing AI.In addition,emotion is the way of thinking that
+people use to enhance their intelligence (Minsky,2007,p.5-6).In this book,the author also
+believes that the brain enhances its primitive response mechanisms through 'Critical-Selector
+Machines'(Minsky,2007,p.27).If you can determine the problem you are facing,you will
+choose a more appropriate way of thinking.At the same time,he divides mental activity into at
+least 6 levels:instinctive reaction,acquired reaction,ruminating,reflection,self-reflection,and
+self-conscious emotion (Minsky,2007,p.31-32).Significantly,the author also proposes 6
+dimensions for creating an emotional machine:consciousness,a hierarchy of mental activity,
+common sense,thinking,intelligence,and ego.These alone take up 6 chapters of the book.Of
+course,the author acknowledges that it is not easy to study the consciousness and emotions of
+AI,and a chapter is devoted to the 'emotion description puzzle'.
+One of the more important points here is that intelligence is closely linked to emotion,and
+without emotion,there can be no intelligence.Early research often assumed that robots would
+not have consciousness and emotion.Some have compared the vital difference between robot
+performers and human performers:although robots can perform technical tasks,they lack all the
+elements of consciousness,intelligence,and emotion that contribute to developing interpretive
+skills (Nagl,2022).However,the role of consciousness,intelligence,and emotion in interpreting
+skills is also implicit.
+It is important to re-emphasise that research into the working mechanisms of the brain is a
+crucial issue in achieving AI awareness and emotion,where reverse engineering of the brain is in
+full swing and various methods of achieving emotion are being actively explored.The most
+complex part of the human brain is the EQ-Emotional Quotient and perceptual awareness,which
+AI sees as the most sophisticated technology to develop.When the brain is successfully reverse-
+engineered,it will be possible to use certain regions to simulate specific neurons to solve these
+problems,so brilliant emotional robots can become commonplace (Marinaro,2020).Can we
+arbitrarily say that machines must not have emotions?
+There are already practical implementations of machine-driven emotions.One approach is to use
+the Vor der Pol equation to create a simple non-linear dynamic model of basic emotions and to
+analyse how the model can represent human emotions in the presence or absence of external
+stimuli,thus simulating the change in emotion (Gong,Lin An,2019).In the case of musical
+emotion,for example,the PAD three-dimensional emotion model can be used,which divides
+emotion into three dimensions:pleasure,activation,and dominance.After extracting the musical
+features (note density,beat,number of variations,maximum interval,tempo,proportion of chord
+bars,etc.)and determining the emotion label,an emotion recognition system can be constructed.
+This type of system can be based on a large number of emotion labelled music samples,and a
+deep learning strategy to find the regularity of the emotion recognition and establish a cognitive
+discriminant formula;the unknown emotion vector
+can then be determined automatically
+
+
+Artificial Intelligence (AI) has been a topic of intense debate in recent years, particularly in the realm of creativity and art. Some argue that AI can enhance human creativity by providing new ideas and expanding artistic horizons, while others contend that AI-generated art lacks the emotional depth and originality of human-made works (Elfara and Dawood, 2023; Liu, 2023). This essay will discuss both views and provide an opinion on the matter.
+
+AI refers to the development of computer systems capable of performing tasks that usually require human intelligence, such as machine learning, deep learning, natural language processing, speech recognition, and computer vision (Elfara and Dawood, 2023). These technologies are becoming increasingly sophisticated and are showing great promise for use in a variety of fields, including Art and Design. AI can recreate existing artwork or produce completely new compositions from scratch, and it can also be used to generate abstract images that are the result of random algorithms instead of humans' artistic vision (Elfara and Dawood, 2023).
+
+Several studies have attempted to evaluate the potential of AI applications in art and design. The results show that computers can be trained to create realistic-looking paintings using simple shapes like circles and triangles. They can also create unique works of art by combining different elements such as paint strokes and textures (Elfara and Dawood, 2023). In the future, AI could be used to help artists and designers improve their creations by providing them with feedback on their work-in-progress. However, it is too early to say what the long-term impact of these technologies will be on the creative arts (Elfara and Dawood, 2023).
+
+On the other hand, the most questionable aspect of AI art-making is that of self-awareness and emotion. Questions such as "Can AI be self-aware?", "Can AI have a soul?", "Can AI have emotions?", "Can AI feel pleasure or pain?", "Can AI have empathy or jealousy?", and "Does AI need to have 'life experience' to create art?" are still highly controversial (Liu, 2023). If AI had self-awareness and emotions, what would be the impact on humans? Will they turn the world upside down?
+
+Marvin Minsky, in his book The Emotion Machine: Commonsense Thinking, Artificial Intelligence, and the Future of the Human Mind, states that the goal of the book is to explain how the human brain works, to design machines that can understand and think, then to try to apply this thinking to understanding ourselves and to developing AI. He also believes that the brain enhances its primitive response mechanisms through 'Critical-Selector Machines' (Minsky, 2007). This suggests a relationship between emotion and intelligence, and without emotion, there can be no intelligence.
+
+In conclusion, while AI has shown great promise in the field of art and design, it is still a topic of intense debate. The potential for AI to enhance human creativity is vast, but the question of whether AI can truly possess self-awareness and emotion remains unanswered. As AI continues to evolve and become more sophisticated, it will be interesting to see how it impacts the world of art and creativity.
